@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  padding: 0 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.leftContainer {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 100%;
+  width: max-content;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1) translateY(-2px);
+  }
+}
